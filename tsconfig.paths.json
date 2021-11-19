@@ -3,12 +3,23 @@
     "baseUrl": ".",
     "paths": {
       "@assets/*": ["src/assets/*"],
-      "@components/*": ["src/components/*"],
+      "@assets": ["src/assets"],
+      "@atoms/*": ["src/components/atoms/*"],
+      "@atoms": ["src/components/atoms"],
+      "@molecules/*": ["src/components/molecules/*"],
+      "@molecules": ["src/components/molecules"],
+      "@organisms/*": ["src/components/organisms/*"],
+      "@organisms": ["src/components/organisms"],
       "@translations/*": ["src/components/translations/*"],
+      "@translations": ["src/components/translations"],
       "@constants/*": ["src/constants/*"],
+      "@constants": ["src/constants"],
       "@pages/*": ["src/pages/*"],
+      "@pages": ["src/pages"],
       "@navigation/*": ["src/navigation/*"],
-      "@theme/*": ["src/theme/*"]
+      "@navigation": ["src/navigation"],
+      "@theme/*": ["src/theme/*"],
+      "@theme": ["src/theme"]
     }
   }
 }

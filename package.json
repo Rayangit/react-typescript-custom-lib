@@ -1,5 +1,5 @@
 {
-  "name": "watchme_landing",
+  "name": "react-typescript-custom-lib",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -23,6 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "craco": "craco start",
     "test": "react-app-rewired start",
     "eject": "react-scripts eject"
   },
@@ -47,7 +48,8 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "4.15.2",
     "@typescript-eslint/parser": "4.15.2",
-    "eslint": "7.20.0",
-    "react-app-rewired": "2.1.8"
+    "craco": "0.0.3",
+    "craco-alias": "3.0.1",
+    "eslint": "7.20.0"
   }
 }
