@@ -2,7 +2,7 @@ import React, {memo} from 'react'
 
 import {Props} from './interfaces'
 
-export const Text: React.FC<Props> = ({
+export const Text: React.FC<Props> = memo(({
   children,
   variant
 }) => {
@@ -12,5 +12,4 @@ export const Text: React.FC<Props> = ({
       {children}
     </h2>
   )
-}
-
+})
